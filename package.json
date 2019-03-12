@@ -1,0 +1,47 @@
+{
+  "name": "@snicesoft/v-aui",
+  "version": "0.0.1",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "files": [
+    "packages",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/app-case-community/v-aui.git"
+  },
+  "keywords": [
+    "vue",
+    "mini",
+    "weex",
+    "web",
+    "universal"
+  ],
+  "author": "Zhe Zhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/app-case-community/v-aui/issues"
+  },
+  "dependencies": {
+    "v-miniui": "^0.0.2",
+    "vue": "https://github.com/app-case-community/vue.git"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
